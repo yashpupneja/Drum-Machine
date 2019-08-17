@@ -1,0 +1,62 @@
+body {
+  font-family: Georgia, serif;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/96/79/9557ee154608f74.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#app {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+#drum-machine {
+  width: 700px;
+  position: relative;
+  text-align: center;
+}
+
+.drum-pad-panel {
+  width: calc((70px*3) + 50px);
+  height: calc((70px*3) + 50px);
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.drum-pad {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+  border-radius: 10px;
+  padding-top: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.drum-pad:hover {
+  outline: 5px solid cyan ; 
+} 
+
+.controls {
+  width: 250px;
+  height: 300px;
+  margin: 40px 20px 0 60px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#display {
+  width: 200px;
+  height: 50px;
+  margin: 25px auto;
+  padding-top: 15px;
+  box-sizing: border-box; 
+  color: #000000;
+  display: inline-block;
+}
